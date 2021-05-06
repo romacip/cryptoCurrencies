@@ -1,0 +1,56 @@
+[
+    {
+      "id": "1",
+      "name": "Bitcoin",
+      "description": "BTC",
+      "price": 48908.38,
+      "percentage": -11.15,
+      "icon": "icon",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "Ethereum",
+      "description": "ETH",
+      "price": 2298.91,
+      "percentage": -13.29,
+      "icon": "icon",
+      "status": false
+    },
+    {
+      "id": "3",
+      "name": "Binance Coin",
+      "description": "BNB",
+      "price": 490.07,
+      "percentage": -13.79,
+      "icon": "icon",
+      "status": true
+    },
+    {
+      "id": "4",
+      "name": "Tether",
+      "description": "USDT",
+      "price": 1.32,
+      "percentage": -0.06,
+      "icon": "icon",
+      "status": true
+    },
+    {
+      "id": "5",
+      "name": "XRP",
+      "description": "XRP",
+      "price": 1.07,
+      "percentage": -19.05,
+      "icon": "icon",
+      "status": false
+    },
+    {
+      "id": "6",
+      "name": "Cardano",
+      "description": "ADA",
+      "price": 1.06,
+      "percentage": -13.17,
+      "icon": "icon",
+      "status": null
+    }
+  ]
