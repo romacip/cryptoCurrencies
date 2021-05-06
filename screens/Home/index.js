@@ -6,6 +6,7 @@ import {
   Text,
   StatusBar,
   FlatList,
+  Image,
  } from 'react-native';
 
 // STYLES 
@@ -52,7 +53,10 @@ const Home = () => {
       <SafeAreaView>
         <View style={styles.header}> 
           <Text> icon search </Text>
-          <Text> icon app </Text>
+          <Image
+            style={styles.iconMain}
+            source={require('../../assets/icon.png')} 
+          />
           <Text> icon menu </Text>
         </View>
         <View style={styles.marketSnapshot}>

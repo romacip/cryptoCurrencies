@@ -8,7 +8,14 @@ module.exports = StyleSheet.create({
     header: {
       height: heightView * 0.08,
       flexDirection: 'row',
-      alignItems: 'center'
+      alignItems: 'center',
+      justifyContent: 'center'
+    },
+    iconMain: {
+      flex: 1,
+      height: 50,
+      resizeMode: 'contain',
+      marginLeft: 20,
     },
     marketSnapshot: {
       backgroundColor: 'blue',
