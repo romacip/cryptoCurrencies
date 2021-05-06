@@ -9,12 +9,12 @@ import {
   Image,
  } from 'react-native';
 
+// COMPONENTS
+import Header from '../../components/Header.js';
+import ContainerBitcoinDescription from '../../components/ContainerBitconDescription';
+
 // STYLES 
 import styles from './styles';
-
-// ICONS
-// import { FontAwesomeIcon } from 'fortawesome/react-native-fontawesome';
-// import {faPlus, faPhotoVideo} from '@fortawesome/free-solid-svg-icons';
 
 // APIS
 import DATA from '../../__mocks__/informationBitcon.json'
@@ -51,22 +51,8 @@ const Home = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <View style={styles.header}> 
-          <Text> icon search </Text>
-          <Image
-            style={styles.iconMain}
-            source={require('../../assets/icon.png')} 
-          />
-          <Text> icon menu </Text>
-        </View>
-        <View style={styles.marketSnapshot}>
-          <Text style={styles.textColormarketSnapshot}> Market Snapshot </Text> 
-        </View>
-        <View style={styles.viewLabels}>
-          <Text style={styles.labelNameTitle}> Name </Text>
-          <Text style={styles.labelPriceTitle}> Price </Text>
-          <Text> 24Hrs</Text>
-        </View>
+        <Header />
+        <ContainerBitcoinDescription />
         <FlatList
           data={DATA}
           renderItem={renderItem}

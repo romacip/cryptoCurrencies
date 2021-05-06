@@ -5,33 +5,6 @@ const widthView = Dimensions.get('window').width;
 const heightView = Dimensions.get('window').height;
 
 module.exports = StyleSheet.create({
-    header: {
-      height: heightView * 0.08,
-      flexDirection: 'row',
-      alignItems: 'center',
-      justifyContent: 'center'
-    },
-    iconMain: {
-      flex: 1,
-      height: 50,
-      resizeMode: 'contain',
-      marginLeft: 20,
-    },
-    marketSnapshot: {
-      backgroundColor: 'blue',
-      height: heightView * 0.04,
-      justifyContent: 'center',
-      alignContent: 'center',
-      paddingLeft: 10,
-    },
-    textColormarketSnapshot: {
-      color: white,
-      fontWeight: 'bold',
-    },
-    viewLabels: {
-      flexDirection: 'row',
-      padding: 10,
-    },
     bodyRow: {
       width: widthView * 0.5,
     },
@@ -59,10 +32,4 @@ module.exports = StyleSheet.create({
       color: 'red',
       textAlign: 'right'
     },
-    labelNameTitle: {
-      width: widthView * 0.65
-    },
-    labelPriceTitle: {
-      width: widthView * 0.2
-    }
 });
