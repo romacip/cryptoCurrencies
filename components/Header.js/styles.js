@@ -6,10 +6,12 @@ const heightView = Dimensions.get('window').height;
 
 module.exports = StyleSheet.create({
     header: {
+      width: widthView*0.95,
       height: heightView * 0.08,
       flexDirection: 'row',
       alignItems: 'center',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      marginLeft: 10,
     },
     iconMain: {
       flex: 1,
